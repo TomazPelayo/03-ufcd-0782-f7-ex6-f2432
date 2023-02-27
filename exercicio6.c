@@ -11,7 +11,7 @@ int main() {
 	scanf("%f",&n1); // ler o valor do produto
 	printf("Qual é o lucro que se quer ter: \n"); // escrever texto
 	scanf("%f",&n2); // ler o lucro do produto	
-	printf("Valor do iva:"); // escrever texto
+	printf("Valor do iva:\n"); // escrever texto
 	scanf("%f",&n3); // ler o iva do produto
 	tmp = (n3/100)+1;
 	res = (n1+n2)*tmp;
